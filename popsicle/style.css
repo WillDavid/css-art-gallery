@@ -4,21 +4,15 @@
     box-sizing: border-box;
 }
 
-body {
+.canva {
+    background-color: #FFFFFF;
     width: 100vw;
     height: 100vh;
     display: flex;
-    background-color: #FFFFFF;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-.popsicle-content {
-    display: flex;
-    align-items: center;
     flex-direction: column;
-    position: absolute;
+    position: relative;
 }
 
 .popsicle {
